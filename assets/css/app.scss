@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "card";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* This file is for your main application CSS */
+body {
+    @apply font-dmsans bg-dark text-plain text-base leading-tight;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
